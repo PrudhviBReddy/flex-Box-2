@@ -1,0 +1,409 @@
+
+/*--------row--------*/
+.container{
+    width: 1200px;
+    height: 600px;
+    background-color: tomato;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+} 
+.container1{
+   
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container2{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container3{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+
+.nav{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+/*--------column--------*/
+.container4{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container5{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container6{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container7{
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+}
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container8{
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+}
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container9{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container99{
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: baseline;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container10{
+    flex-direction: row;
+    justify-content: end;
+    align-items: baseline;
+    align-content: start;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container11{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: center;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container12{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: end;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container13{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: space-between;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container14{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: space-around;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container15{
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: space-evenly;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container16{
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: baseline;
+    align-content: space-evenly; */
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container17{
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: baseline;
+    align-content: space-evenly; */
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container18{
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container118{
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container188{
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container19{
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container20{
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container21{
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container22{
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
+.container23{
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 5rem;
+}
